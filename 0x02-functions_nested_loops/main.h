@@ -15,4 +15,6 @@ void print_alphabet(void);
 /*  prototype for printing alphabets 10x */
 void print_alphabet_x10(void);
 
+/*  prototype for isLower function */
+int _islower(int c);
 
