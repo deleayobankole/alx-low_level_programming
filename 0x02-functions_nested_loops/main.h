@@ -18,3 +18,9 @@ void print_alphabet_x10(void);
 /*  prototype for isLower function */
 int _islower(int c);
 
+
+/* prototype to test if input is a letter - lower or upper */
+int _isalpha(int c);
+
+
+
