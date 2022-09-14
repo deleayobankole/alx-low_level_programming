@@ -29,3 +29,6 @@ int _abs(int r);
 
 /* prototype for last number function */
 int print_last_digit(int r);
+
+/* prototype for Jack Buaer */
+void jack_bauer(void);
