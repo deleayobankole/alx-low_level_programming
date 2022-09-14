@@ -41,3 +41,6 @@ int add(int a, int b);
 
 /* prototype to print to 98 */
 void print_to_98(int n);
+
+/* ptototype to multiply n times */
+void print_times_table(int n);
