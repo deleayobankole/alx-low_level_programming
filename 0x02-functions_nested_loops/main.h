@@ -35,3 +35,8 @@ void jack_bauer(void);
 
 /* prototype for timeatable */
 void times_table(void);
+
+/* prototype to add two numbers */
+int add(int a, int b);
+
+
