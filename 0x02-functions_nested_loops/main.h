@@ -32,3 +32,6 @@ int print_last_digit(int r);
 
 /* prototype for Jack Buaer */
 void jack_bauer(void);
+
+/* prototype for timeatable */
+void times_table(void);
