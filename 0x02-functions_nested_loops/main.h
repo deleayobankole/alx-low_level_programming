@@ -24,3 +24,5 @@ int _isalpha(int c);
 /* prototype to print signs */
 int print_sign(int n);
 
+/* prototype for absolute */
+int _abs(int r);
