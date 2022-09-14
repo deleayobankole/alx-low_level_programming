@@ -26,3 +26,6 @@ int print_sign(int n);
 
 /* prototype for absolute */
 int _abs(int r);
+
+/* prototype for last number function */
+int print_last_digit(int r);
