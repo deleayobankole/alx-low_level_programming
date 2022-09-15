@@ -30,4 +30,7 @@ void print_line(int n);
 /*  function that draws a diagonal line */
 void print_diagonal(int n);
 
+/* function that prints a square */
+void print_square(int size);
+
 #endif /* MAIN_H */
