@@ -21,4 +21,7 @@ int _putchar(char c);
 /* function to skip two numbers */
 void print_most_numbers(void);
 
+/* function that prints 10 times the numbers, from 0 to 14 */
+void more_numbers(void);
+
 #endif /* MAIN_H */
