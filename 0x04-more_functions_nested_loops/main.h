@@ -33,4 +33,7 @@ void print_diagonal(int n);
 /* function that prints a square */
 void print_square(int size);
 
+/*  function that prints a triangle*/
+void print_triangle(int size);
+
 #endif /* MAIN_H */
