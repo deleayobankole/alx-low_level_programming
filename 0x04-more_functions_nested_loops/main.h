@@ -27,4 +27,7 @@ void more_numbers(void);
 /* function that draws a straight line */
 void print_line(int n);
 
+/*  function that draws a diagonal line */
+void print_diagonal(int n);
+
 #endif /* MAIN_H */
