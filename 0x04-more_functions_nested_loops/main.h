@@ -6,4 +6,7 @@
 /*function prototype for _isupper*/
 int _isupper(int c);
 
+/*function prototype for digits*/
+int _isdigit(int c);
+
 #endif /* MAIN_H */
