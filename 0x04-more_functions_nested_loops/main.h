@@ -9,4 +9,7 @@ int _isupper(int c);
 /*function prototype for digits*/
 int _isdigit(int c);
 
+/*function to multiply 2 integers*/
+int mul(int a, int b);
+
 #endif /* MAIN_H */
