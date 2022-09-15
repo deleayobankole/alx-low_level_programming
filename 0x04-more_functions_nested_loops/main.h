@@ -18,4 +18,7 @@ void print_numbers(void);
 /*function to print a character*/
 int _putchar(char c);
 
+/* function to skip two numbers */
+void print_most_numbers(void);
+
 #endif /* MAIN_H */
