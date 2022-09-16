@@ -3,6 +3,7 @@
 
 /**
  * main - the code house
+ * Return: 0 if success
  */
 
 int main(void)
