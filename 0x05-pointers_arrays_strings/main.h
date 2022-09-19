@@ -31,6 +31,7 @@ void puts2(char *str);
 /* function that prints half of a string */
 void puts_half(char *str);
 
-
+/* function that prints n elements of an array of integers, */
+void print_array(int *a, int n);
 
 
