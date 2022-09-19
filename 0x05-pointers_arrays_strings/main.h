@@ -34,4 +34,7 @@ void puts_half(char *str);
 /* function that prints n elements of an array of integers, */
 void print_array(int *a, int n);
 
+/* function that copies the string pointed to by src */
+char *_strcpy(char *dest, char *src);
+
 
