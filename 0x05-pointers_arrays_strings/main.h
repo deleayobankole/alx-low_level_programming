@@ -21,3 +21,9 @@ void _puts(char *str);
 
 /* function that prints a string, in reverse, followed by a new line */
 void print_rev(char *s);
+
+/* function that reverses a string */
+void rev_string(char *s);
+
+
+
