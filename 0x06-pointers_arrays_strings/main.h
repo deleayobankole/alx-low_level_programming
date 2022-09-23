@@ -29,3 +29,6 @@ char *rot13(char *);
 
 /* function that prints an integer. */
 void print_number(int n);
+
+/*function to print a character*/
+int _putchar(char c);
