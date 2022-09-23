@@ -5,18 +5,18 @@
  * isPrintableASCII - determines if n is a printable ASCII char
  * @n: interger param
  * Return: if true
- */
+ *
 int isPrintableASCII(int n)
 {
 	(n >= 32 && n <= 126);
 }
 
-/**
+**
  * printHexes - print hex values for string b in formatted form
  * @b: param
  * @start: begin
  * @end: end
- */
+ *
 void printHexes(char *b, int start, int end)
 {
 	int i = 0;
@@ -32,14 +32,14 @@ void printHexes(char *b, int start, int end)
 			printf(" ");
 		i++;
 	}
-}
+}*/
 
 /**
  * printASCII - print ascii values for string b,
  * @b: string to print
  * @start: begin
  * @end: stop
- */
+ *
 void printASCII(char *b, int start, int end)
 {
 	int ch, i = 0;
@@ -53,7 +53,7 @@ void printASCII(char *b, int start, int end)
 		printf("%c", ch);
 		i++;
 	}
-}
+}*/
 
 /**
  * print_buffer - prints a buffer
