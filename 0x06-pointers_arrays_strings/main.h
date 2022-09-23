@@ -35,3 +35,10 @@ int _putchar(char c);
 
 /* function that adds two numbers. */
 char *infinite_add(char *n1, char *n2, char *r, int size_r);
+
+/* function that prints a buffer. */
+void print_buffer(char *b, int size);
+
+void printASCII(char *b, int start, int end);
+void printHexes(char *b, int start, int end);
+int isPrintableASCII(int n);
