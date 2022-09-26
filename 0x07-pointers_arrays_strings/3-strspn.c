@@ -1,5 +1,12 @@
 #include "main.h"
 
+/**
+ * _strspn - function to get prefix
+ * @s: string to test
+ * @accept: param
+ * Return: null value
+ */
+
 unsigned int _strspn(char *s, char *accept)
 {
 	int i, j;
@@ -21,6 +28,5 @@ unsigned int _strspn(char *s, char *accept)
 			return (result);
 		}
 	}
-	
 	return (result);
 }
