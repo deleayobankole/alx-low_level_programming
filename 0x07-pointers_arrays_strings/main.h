@@ -25,6 +25,9 @@ void print_chessboard(char (*a)[8]);
 /* function that prints the sum of the two diagonals of a square matrix of integers */
 void print_diagsums(int *a, int size);
 
+/*  function that sets the value of a pointer to a char. */
+void set_string(char **s, char *to);
+
 
 /* function to print a character */
 int _putchar(char c);
