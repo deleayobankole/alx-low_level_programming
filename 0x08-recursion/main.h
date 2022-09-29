@@ -22,3 +22,6 @@ int _pow_recursion(int x, int y);
 
 /* return the square root */
 int _sqrt_recursion(int n);
+
+/* tests for prime number */
+int is_prime_number(int n);
