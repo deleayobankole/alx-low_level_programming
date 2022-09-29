@@ -19,3 +19,6 @@ int factorial(int n);
 
 /* function that retruns the value of x raise to the power of y */
 int _pow_recursion(int x, int y);
+
+/* return the square root */
+int _sqrt_recursion(int n);
