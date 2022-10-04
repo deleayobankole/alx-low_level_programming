@@ -2,42 +2,6 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
- * _strlen - count array
- * @s: array elements
- * Return: 1
- */
-int _strlen(char *s)
-{
-	unsigned int i;
-
-	i = 0;
-
-	while (s[i] != '\0')
-	{
-		i++;
-	}
-	return (i);
-}
-/**
- * _srtcpy - copy arays
- * @src: array elements
- * @dest: dest array
- * Return: dest
- */
-char *_strcpy(char *dest, char *src)
-{
-	int i = 0;
-
-	while (src[i] != '\0')
-	{
-		dest[i] = src[i];
-		i++;
-	}
-	dest[i] = '\0';
-
-	return (dest);
-}
-/**
  * _strdup - return to nelwy allocated space
  * @str: string
  * Return: string or null
@@ -45,21 +9,26 @@ char *_strcpy(char *dest, char *src)
 char *_strdup(char *str)
 {
 	char *dst;
-	unsigned int size;
+	int i;
+	int c = 0;
 
-	if (str == 0)
+	if (str == NULL)
 	{
 		return (NULL);
 	}
 
-	size = _strlen(str) + 1;
+	while (str[c] != '\0')
+		c++;
 
-	dst = (char *) malloc(size * sizeof(char));
+	dst = malloc(sizeof(char) * c + 1);
 
-	if (dst == 0)
+	if (dst == NULL)
 	{
 		return (NULL);
 	}
-	_strcpy(dst, str);
+
+	for (i = 0; i < c; i++)
+		dst[i] = str[i];
+
 	return (dst);
 }
