@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * main - prints the name of the file program was compiled from
  * Return: 0 if success
